@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the document-craft page/type profile to a NEW DOCX or explicit restyle.
+"""Apply the doc-format page/type profile to a NEW DOCX or explicit restyle.
 Not for a targeted edit. Supports one ordinary, final body section only.
 """
 import argparse

@@ -3,7 +3,7 @@
   "access_date": "03.11.2026",
   "documents": [
     {
-      "slug": "01-service-requests",
+      "slug": "01",
       "title": "Журнал заявок сервисного отдела",
       "subtitle": "Описание прототипа и проверка выгрузки",
       "draft": "office",
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "slug": "02-equipment-register",
+      "slug": "02",
       "title": "Реестр оборудования и журнал перемещений",
       "subtitle": "Записка к прототипу учёта",
       "draft": "plain",
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "slug": "03-measurement-series",
+      "slug": "03",
       "title": "Обработка серии повторных измерений",
       "subtitle": "Расчётная записка к программной модели",
       "draft": "mixed",

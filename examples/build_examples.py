@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build realistic before/after DOCX examples with local document-craft tools.
+"""Build realistic before/after DOCX examples with local doc-format tools.
 
 Requires python-docx, matplotlib, pdfplumber and Pillow. No network requests.
 The source data are synthetic; bibliography URLs are recorded in source-data.json.

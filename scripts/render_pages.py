@@ -35,7 +35,7 @@ def font_environment(font_dirs):
     if not directories:
         yield None
         return
-    with tempfile.TemporaryDirectory(prefix="document-craft-fonts-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="doc-format-fonts-") as temporary:
         temp = Path(temporary)
         cache = temp / "cache"
         cache.mkdir()
@@ -43,7 +43,7 @@ def font_environment(font_dirs):
         for directory in directories:
             ET.SubElement(config, "dir").text = str(directory)
         ET.SubElement(config, "cachedir").text = str(cache)
-        config_path = temp / "document-craft-fonts.conf"
+        config_path = temp / "doc-format-fonts.conf"
         ET.ElementTree(config).write(config_path, encoding="utf-8", xml_declaration=True)
         env = os.environ.copy()
         env["FONTCONFIG_FILE"] = str(config_path)
@@ -79,7 +79,7 @@ def render(args, env=None):
     out.mkdir(parents=True, exist_ok=True)
     pdf = source
     if suffix == ".docx":
-        with tempfile.TemporaryDirectory(prefix="document-craft-lo-") as profile:
+        with tempfile.TemporaryDirectory(prefix="doc-format-lo-") as profile:
             run([soffice, f"-env:UserInstallation={Path(profile).as_uri()}",
                  "--headless", "--convert-to", "pdf", "--outdir", str(out), str(source)], args.timeout, env)
         pdf = out / (source.stem + ".pdf")

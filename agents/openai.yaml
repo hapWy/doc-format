@@ -1,4 +1,4 @@
 interface:
-  display_name: "Document Craft"
+  display_name: "doc-format"
   short_description: "Русские документы без воды и цветных таблиц"
-  default_prompt: "Используй $document-craft для создания или точечного редактирования документа и проверь итоговый файл."
+  default_prompt: "Используй $doc-format для создания или точечного редактирования документа и проверь итоговый файл."

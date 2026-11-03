@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only audit of the document-craft page/type profile. Render is mandatory."""
+"""Read-only audit of the doc-format page/type profile. Render is mandatory."""
 import argparse
 import json
 from pathlib import Path, PurePosixPath

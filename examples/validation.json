@@ -3,7 +3,7 @@
   "format_only": true,
   "documents": [
     {
-      "slug": "01-service-requests",
+      "slug": "01",
       "title": "Журнал заявок сервисного отдела",
       "before_pages": 5,
       "after_pages": 6,
@@ -20,7 +20,7 @@
       "notes": "General DOCX checker exceptions for Courier New listing and generated TOC are checked separately against the academic profile."
     },
     {
-      "slug": "02-equipment-register",
+      "slug": "02",
       "title": "Реестр оборудования и журнал перемещений",
       "before_pages": 5,
       "after_pages": 6,
@@ -37,7 +37,7 @@
       "notes": "General DOCX checker exceptions for Courier New listing and generated TOC are checked separately against the academic profile."
     },
     {
-      "slug": "03-measurement-series",
+      "slug": "03",
       "title": "Обработка серии повторных измерений",
       "before_pages": 5,
       "after_pages": 6,
