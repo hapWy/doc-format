@@ -1,0 +1,57 @@
+{
+  "synthetic_examples": true,
+  "format_only": true,
+  "documents": [
+    {
+      "slug": "01-service-requests",
+      "title": "Журнал заявок сервисного отдела",
+      "before_pages": 5,
+      "after_pages": 6,
+      "before_preview_page": 2,
+      "after_preview_page": 3,
+      "table_count": 2,
+      "formula_count": 2,
+      "code_listings": 1,
+      "figures": 1,
+      "content_preserved": true,
+      "toc_pages_verified": true,
+      "page_numbers_verified": true,
+      "docx_metadata": "generic",
+      "notes": "General DOCX checker exceptions for Courier New listing and generated TOC are checked separately against the academic profile."
+    },
+    {
+      "slug": "02-equipment-register",
+      "title": "Реестр оборудования и журнал перемещений",
+      "before_pages": 5,
+      "after_pages": 6,
+      "before_preview_page": 2,
+      "after_preview_page": 3,
+      "table_count": 2,
+      "formula_count": 1,
+      "code_listings": 1,
+      "figures": 1,
+      "content_preserved": true,
+      "toc_pages_verified": true,
+      "page_numbers_verified": true,
+      "docx_metadata": "generic",
+      "notes": "General DOCX checker exceptions for Courier New listing and generated TOC are checked separately against the academic profile."
+    },
+    {
+      "slug": "03-measurement-series",
+      "title": "Обработка серии повторных измерений",
+      "before_pages": 5,
+      "after_pages": 6,
+      "before_preview_page": 2,
+      "after_preview_page": 3,
+      "table_count": 2,
+      "formula_count": 2,
+      "code_listings": 1,
+      "figures": 1,
+      "content_preserved": true,
+      "toc_pages_verified": true,
+      "page_numbers_verified": true,
+      "docx_metadata": "generic",
+      "notes": "General DOCX checker exceptions for Courier New listing and generated TOC are checked separately against the academic profile."
+    }
+  ]
+}

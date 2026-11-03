@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Craft"
+  short_description: "Русские документы без воды и цветных таблиц"
+  default_prompt: "Используй $document-craft для создания или точечного редактирования документа и проверь итоговый файл."
